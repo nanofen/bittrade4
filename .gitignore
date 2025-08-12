@@ -1,101 +1,22 @@
-# Python cache files
+# 機密情報・認証設定
+auth.py
+wallet_config.py
+.env
+*.key
+*.pem
+private_keys/
+wallets/
+
+# Python
 __pycache__/
-__pycache__
 *.py[cod]
 *$py.class
-*.so
+
+# データファイル  
 *.log
-
-# Distribution / packaging
-.Python
-build/
-archive
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Environment variables
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE files
-.vscode/
+temp/
+tmp/
+service_account.json
 .idea/
-*.swp
-*.swo
-*~
-
-# Data files
-*.json
-*.pkl
-*.pickle
-*.csv
-*.xlsx
-*.xls
+archive/
 data/
-logs/
-
-# Log files
-*.log
-logfile.log
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Temporary files
-*.tmp
-*.temp
